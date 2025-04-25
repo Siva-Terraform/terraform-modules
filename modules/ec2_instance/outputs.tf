@@ -5,7 +5,3 @@ output "public-ip-address" {
 output "availability_zone" {
     value = aws_instance.example.availability_zone
 }
-
-output "availability_zone" {
-    value = aws_instance.example.instance_type_value
-}
