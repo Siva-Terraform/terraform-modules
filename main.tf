@@ -7,4 +7,5 @@ provider "aws" {
 module "ec2_instances" {
     source = ".//modules"    # here we are having the modules in same repository hence providing module paths
     #source = "git::https://example.com/vpc.git"     # this is example if we need to call module from other repositories
+
 }
